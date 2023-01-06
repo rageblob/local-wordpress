@@ -1,0 +1,9 @@
+db_data/*
+wp_data/*
+wp_plugins/*
+wp_themes/*
+
+credentials
+
+.vscode*
+.idea*

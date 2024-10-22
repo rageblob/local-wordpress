@@ -19,7 +19,7 @@ alias prune='rm -rf certs'
 IP_ADDRESS=$(ip addr show eth0 | grep inet\  | sed -n 's/.*inet \([0-9\.]*\)\/.*/\1/p')
 
 echo "WordPress is now available at
-  http:$IP_ADDRESS:80" > howto.txt
+  http://$IP_ADDRESS:80" > howto.txt
 
 echo "To kill everything, run \`dcd\` in the terminal." >> howto.txt
 
